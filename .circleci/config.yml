@@ -27,6 +27,7 @@ jobs:
           paths:
             - node_modules
 
+
        - run: npm run dev
        - run:
            name: php test
